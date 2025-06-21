@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+# Movie Finder App 🎬
+
+A React.js frontend with an Express.js API backend that fetches data from OMDB API.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
