@@ -33,12 +33,10 @@ For Linux/Mac/Git Bash users:
 ↪ bash run-demo.sh
 
 It will:
-
 ↪ Create a folder test-movie-app
 ↪ Clone your repo inside it
 ↪ Set up .env
 ↪ Install everything
 ↪ Start the app
-```
 
-<!-- Uses [OMDb API](http://www.omdbapi.com/) to fetch movies. -->
+## Uses [OMDb API](http://www.omdbapi.com/) to fetch movies.
