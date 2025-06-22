@@ -20,9 +20,11 @@ cd Movie-App
 ### How to Run
 1. Clone the repo
 2. Run `npm install`
-3. Run `npm start`
+3. Create a `.env` file in the root folder:
+    ↪ REACT_APP_API_KEY=your_own_key_here
+4. Run `npm start`
+
+
 
 Uses [OMDb API](http://www.omdbapi.com/) to fetch movies.
-
-API_URL = 'http://www.omdbapi.com?apikey=1117b6ac';
 

@@ -4,9 +4,11 @@ import SearchIcon from './search.svg'
 import MovieCard from './MovieCard';
 import { useState} from "react";
 
-const API_URL = 'http://www.omdbapi.com?apikey=1117b6ac';
+// const API_URL = 'http://www.omdbapi.com/?apikey=1117b6ac';
+const API_URL = `http://www.omdbapi.com?apikey=${process.env.REACT_APP_API_KEY}`;
 
-const movie1 = {
+
+const movies = {
     "Title": "The Amazing Spiderman 2 Webb Cut",
     "Year": "2021",
     "imdbID": "tt18351128",
