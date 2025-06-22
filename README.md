@@ -25,7 +25,7 @@ cd Movie-App
 4. Run `npm start` ( # It should open http://localhost:3000 in your browser with your app running!)
 
 ```
-## OR
+### OR (Quick way)
 ```bash
 ## 🔧 Quick Test Script (Optional)
 For Linux/Mac/Git Bash users:
