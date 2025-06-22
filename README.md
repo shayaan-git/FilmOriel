@@ -6,10 +6,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Filmoriel.
 A simple React.js frontend that fetches movie data using the OMDB API.
 
-## 🚀 Live Demo
-
-[Click here to view the app] => API_URL = 'http://www.omdbapi.com?apikey=1117b6ac'
-
 ---
 
 ## 📦 Installation & Setup
