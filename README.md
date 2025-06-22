@@ -11,13 +11,12 @@ A simple React.js frontend that fetches movie data using the OMDB API.
 ## 📦 Installation & Setup
 
 ### 1. Clone the Repository
+### 2. 👨🏻‍🏫📎 Instructions 
+#### Movie App (React + OMDb API)
 
 ```bash
 git clone https://github.com/shayaan-git/Movie-App.git
 cd Movie-App
-
-### 2. 👨🏻‍🏫📎 Instructions 
-#### Movie App (React + OMDb API)
 
 ### How to Run
 1. Clone the repo
