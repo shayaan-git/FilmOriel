@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # 🎬 Movie Finder App
-
+Filmoriel.
 A simple React.js frontend that fetches movie data using the OMDB API.
 
 ## 🚀 Live Demo
