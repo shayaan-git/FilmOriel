@@ -10,9 +10,9 @@
 
 ### Movie App (React + OMDb API)
 
-### 1. 👨🏻‍🏫📎 Instructions 
+### 👨🏻‍🏫📎 Instructions 
 
-### 2. Clone the Repository
+###  Clone the Repository
 ```bash
 git clone https://github.com/shayaan-git/Movie-App.git
 cd Movie-App
@@ -26,8 +26,9 @@ cd Movie-App
 
 ```
 ### OR (Quick way)
+<details>
+    <summary><code>🔧 Quick Test Script (Optional)</code></summary>
 ```bash
-## 🔧 Quick Test Script (Optional)
 For Linux/Mac/Git Bash users:
 
 ↪ bash run-demo.sh
@@ -38,5 +39,7 @@ It will:
 ↪ Set up .env
 ↪ Install everything
 ↪ Start the app
+
+</details>
 
 ## Uses [OMDb API](http://www.omdbapi.com/) to fetch movies.
