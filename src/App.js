@@ -26,9 +26,15 @@ const App = () => {
         }
     }
 
-    useEffect (() => {
-        searchMovies('Spiderman')
-    }, []);
+    useEffect(() => {
+  const searchCategories = [
+    "Breaking Bad", "action", "comedy", "Marvel Studio", "thriller, 
+    "romance", "sci-fi", "adventure", "animation"
+  ];
+  
+  const randomCategory = searchCategories[Math.floor(Math.random() * searchCategories.length)];
+  searchMovies(randomCategory);
+}, []);
     
     return (
         <div className="app">
@@ -61,8 +67,8 @@ const App = () => {
                             <div className="suggestions">
                                 <h3><p>Try:</p>- Searching for a different movie title.</h3>
                                 <h3>- Check your internet connection.</h3>
-                                <h3>- Check the 'API key' in .env file & 'API URL' in App.js file.</h3>
                                 <h3>- Check the API key validity.</h3>
+                                <h3>- Check the 'API key' in .env file & 'API URL' in App.js file.</h3>
                             </div>
                     </div>
                 )}
