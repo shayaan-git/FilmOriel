@@ -28,7 +28,6 @@ cd Movie-App
 ### OR (Quick way)
 <details>
     <summary><code>🔧 Quick Test Script (Optional)</code></summary>
-```bash
 For Linux/Mac/Git Bash users:
 
 ↪ bash run-demo.sh
