@@ -28,15 +28,14 @@ cd Movie-App
 ### OR (Quick way)
 <details>
     <summary><code>🔧 Quick Test Script (Optional)</code></summary>
-For Linux/Mac/Git Bash users:
+For Linux/Mac/Git Bash users: <p>
 
 ↪ bash run-demo.sh
 
-It will:
-↪ Create a folder test-movie-app
-↪ Clone your repo inside it
-↪ Set up .env
-↪ Install everything
+It will: <br> ↪ Create a folder test-movie-app <br>
+↪ Clone your repo inside it <br>
+↪ Set up .env <br>
+↪ Install everything <br>
 ↪ Start the app
 
 </details>
