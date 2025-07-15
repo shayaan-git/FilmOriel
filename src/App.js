@@ -27,14 +27,16 @@ const App = () => {
     }
 
     useEffect(() => {
-  const searchCategories = [
-    "Breaking Bad", "action", "comedy", "Marvel Studio", "thriller, 
-    "romance", "sci-fi", "adventure", "animation"
-  ];
-  
-  const randomCategory = searchCategories[Math.floor(Math.random() * searchCategories.length)];
-  searchMovies(randomCategory);
-}, []);
+        const randomOptions = [
+            // Specific movies
+            "Breaking Bad", "action", "Marvel Studios", "Harry Potter",
+            "Thriller", "Romance", "Anime", "who killed tupac?",
+            // Categories that return multiple results
+            "Cartoon", "Disney", "comedy", "thriller"];
+          
+        const randomChoice = randomOptions[Math.floor(Math.random() * randomOptions.length)];
+        searchMovies(randomChoice);
+        }, []);
     
     return (
         <div className="app">
