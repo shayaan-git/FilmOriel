@@ -29,8 +29,8 @@ const App = () => {
     useEffect(() => {
         const randomOptions = [
             // Specific movies
-            "breaking bad", "marvel studios",
-            "thriller", "romance", "who killed tupac?",
+            "breaking bad", "marvel studios", 
+            "romance", "who killed tupac?",
             // Categories that return multiple results
             "anime", "disney", "comedy"];
           
