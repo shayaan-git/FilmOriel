@@ -21,7 +21,7 @@ cd Movie-App
 1. Clone the repo
 2. Run `npm install`
 3. 🔐 Step 4: Create a .env File in root folder
-    ↪_Add-in: REACT_APP_API_KEY=your_own_key_here ( # Make sure this key matches your actual API key.)
+    ↪_Add-in: REACT_APP_API_KEY=your_own_key_here ( # Make sure this key matches your actual API key, I used OMDB apikey.)
 4. Run `npm start` ( # It should open http://localhost:3000 in your browser with your app running!)
 
 ```

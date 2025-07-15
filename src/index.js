@@ -5,8 +5,6 @@
 
 // ReactDOM.createRoot(<App />, document.getElementById('root'));
 
-// 1117b6ac
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
