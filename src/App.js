@@ -29,10 +29,10 @@ const App = () => {
     useEffect(() => {
         const randomOptions = [
             // Specific movies
-            "Breaking Bad", "action", "Marvel Studios", "Harry Potter",
-            "Thriller", "Romance", "Anime", "who killed tupac?",
+            "breaking bad", "marvel studios",
+            "thriller", "romance", "who killed tupac?",
             // Categories that return multiple results
-            "Cartoon", "Disney", "comedy", "thriller"];
+            "anime", "disney", "comedy"];
           
         const randomChoice = randomOptions[Math.floor(Math.random() * randomOptions.length)];
         searchMovies(randomChoice);
