@@ -4,7 +4,7 @@ import SearchIcon from './magSearch.svg';
 import MovieCard from './MovieCard';
 import { useState} from "react";
 
-const API_URL = `https://www.omdbapi.com?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
+const API_URL = `https://www.omdbapi.com?apikey=${process.env.REACT_APP_API_KEY}`;
 
 
 const App = () => {
@@ -30,7 +30,7 @@ const App = () => {
         const randomOptions = [
             // Specific movies
             "breaking bad", "marvel studios", 
-            "romance", "who killed tupac?",
+            "story", "who killed tupac?",
             // Categories that return multiple results
             "anime", "disney", "comedy"];
           
